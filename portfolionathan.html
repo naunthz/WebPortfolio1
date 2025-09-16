@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nathan Portfolio - UI Designer & Developer</title>
+  <link rel="stylesheet" href="portfolionathan.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Loading Screen -->
+  <div id="loading-screen" class="loading-screen">
+    <div class="loader">
+      <div class="loader-text">Hello</div>
+      <div class="loader-bar"></div>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="brand">
+      <i class="fas fa-code"></i>
+      Nathan Portfolio
+    </div>
+
+    <div class="nav-links" id="nav-links">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#experience" class="nav-link">Experience</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </div>
+
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="home">
+    <div class="hero-background">
+      <div class="floating-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+      </div>
+    </div>
+    
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1 class="hero-title">
+         Hello, Im Nathan
+          <span class="highlight">.</span>
+        </h1>
+        <h2 class="hero-subtitle">
+          Saya seorang <span class="profesi" id="profesi"></span>
+        </h2>
+        <p class="intro-text">
+          I am a student with a disability who is passionate about learning, growing, and sharing creativity through technology and design. Let's create something amazing together!
+        </p>
+        <div class="cta-buttons">
+          <a href="#contact" class="btn btn-primary">
+            <i class="fas fa-envelope"></i>
+            Get In Touch
+          </a>
+          <a href="CV_Muhammad Naufal Athallah.pdf" class="btn btn-outline" download>
+            <i class="fas fa-download"></i>
+            Curiculum Vitae
+          </a>
+        </div>
+        <div class="social-links">
+          <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/naunthz" class="social-link"><i class="fab fa-github"></i></a>
+          <a href="https://www.instagram.com/nathtanz" class="social-link"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="image-container">
+          <img src="nathanphoto.jpg" alt="Nathan Profile" class="photoprofile" />
+          <div class="image-decoration"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-subtitle">Get to know me better</p>
+      </div>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            I'm a dedicated student who believes that limitations are just opportunities 
+            to find creative solutions. My journey in design and development has taught me 
+            that the best innovations come from unique perspectives.
+          </p>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <i class="fas fa-palette"></i>
+              <h3>UI Designer</h3>
+              <p>Creating intuitive and beautiful user experiences</p>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-code"></i>
+              <h3>Web Development</h3>
+              <p>Building responsive and modern web applications</p>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-users"></i>
+              <h3>HR Recruitment</h3>
+              <p>Connecting the right people with the right opportunities</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE SECTION -->
+  <section class="experience" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Experience</h2>
+        <p class="section-subtitle">My professional journey</p>
+      </div>
+      <div class="timeline">
+        <div class="timeline-track"></div>
+        
+        <div class="timeline-item left">
+          <div class="timeline-content">
+            <div class="timeline-icon">
+              <i class="fas fa-camera"></i>
+            </div>
+            <h3>Photography</h3>
+            <span class="timeline-date">2021 - Present</span>
+            <p>Capturing moments and creating visual stories through professional photography services and creative projects.</p>
+          </div>
+          <div class="timeline-dot"></div>
+        </div>
+
+        <div class="timeline-item right">
+          <div class="timeline-content">
+            <div class="timeline-icon">
+              <i class="fas fa-bullhorn"></i>
+            </div>
+            <h3>Marketing</h3>
+            <span class="timeline-date">2023 - Present</span>
+            <p>Developing marketing strategies and campaigns to help businesses grow their brand presence and reach target audiences.</p>
+          </div>
+          <div class="timeline-dot"></div>
+        </div>
+
+        <div class="timeline-item left">
+          <div class="timeline-content">
+            <div class="timeline-icon">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <h3>UI Designer</h3>
+            <span class="timeline-date">2023 - Present</span>
+            <p>Designing user-centered interfaces and improving user experiences for web and mobile applications.</p>
+          </div>
+          <div class="timeline-dot"></div>
+        </div>
+
+        <div class="timeline-item right">
+          <div class="timeline-content">
+            <div class="timeline-icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3>Web Developer</h3>
+            <span class="timeline-date">2024 - Present</span>
+            <p>Developing responsive websites and web applications using modern technologies and frameworks.</p>
+          </div>
+          <div class="timeline-dot"></div>
+        </div>
+
+        <div class="timeline-item left">
+          <div class="timeline-content">
+            <div class="timeline-icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <h3>HR Recruitment</h3>
+            <span class="timeline-date">2025 - Present</span>
+            <p>Assisted in talent acquisition and recruitment processes, helping connect candidates with opportunities.</p>
+          </div>
+          <div class="timeline-dot"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-subtitle">Some of my recent work</p>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="Project Parkinz.jpg" alt="Project 1" />
+            <div class="project-overlay">
+              <a href="https://www.figma.com/proto/uy12BW04c0Bk7PTazRY4DC/PARKINZ?node-id=38-4&p=f&t=yFLOKQPjTjoZ8cIz-1&scaling=min-zoom&content-scaling=fixed&page-id=7%3A2&starting-point-node-id=38%3A4" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Mobile App Design: Parkinz</h3>
+            <p>Parkinz is a mobile app designed to provide efficient and convenient parking solutions by 
+              connecting vehicle owners with underutilized parking spaces, creating a system that benefits both sides.</p>
+            <div class="project-tags">
+              <span class="tag">Figma</span>
+              <span class="tag">UI/UX Design</span>
+              <span class="tag">Prototyping</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image">
+            <img src="Graphic Design.jpg" alt="Project 2" />
+            <div class="project-overlay">
+              <a href="https://drive.google.com/file/d/1ofFILeOxgMtdZXS-rOei033GIBPWd8Vq/view" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Design Graphic</h3>
+            <p>Creative graphic design projects showcasing posters, social media content, and event branding.</p>
+            <div class="project-tags">
+              <span class="tag">Figma</span>
+              <span class="tag">Adobe Illustrator</span>
+              <span class="tag">Graphic Design</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image">
+            <img src="Photography.png" alt="Project 3" />
+            <div class="project-overlay">
+              <a href="https://drive.google.com/drive/folders/1LkrnDM2NPyav9s-AFgRU0De98ZpDMxNv?usp=sharing" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Photography</h3>
+            <p>Exploring creativity through portrait and lifestyle photography.</p>
+            <div class="project-tags">
+              <span class="tag">SONY A3000</span>
+              <span class="tag">Outdoor Photography</span>
+              <span class="tag">Model Ohotography</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Let's Work Together</h2>
+        <p class="section-subtitle">Ready to start your next project?</p>
+      </div>
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h3>Email</h3>
+              <p>muhammadnaufalathallah14@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <div>
+              <h3>Phone</h3>
+              <p>+62 82113102928</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h3>Location</h3>
+              <p>Bintaro, Tangerang Selatan</p>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" form action="https://formsubmit.co/muhammadnaufalathallah14@gmail.com" method="POST">
+          <div class="form-group">
+            <input type="text" name="name" placeholder="Your Name" required>
+          </div>
+
+          <div class="form-group">
+            <input type="email" name="email" placeholder="Your Email" required>
+          </div>
+
+          <div class="form-group">
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">
+            <i class="fas fa-paper-plane"></i>
+            Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p>&copy; 2025 Nathan Portfolio. Made with <i class="fas fa-heart"></i> and creativity.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="back-to-top" class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="portfolionathan.js"></script>
+</body>
+</html>
